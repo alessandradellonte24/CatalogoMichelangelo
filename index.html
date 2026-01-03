@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>Sulle tracce di Michelangelo</title>
+  <!--I metadati-->
+  <meta charset="UTF-8">
+  <meta name="DC.Title" content="Sulle tracce di Michelangelo">
+  <meta name="DC.Subject" content="Vita e opere di Michelangelo Buonarroti">
+  <meta name="DC.Creator" content="Alessandra Dell'Onte">
+  <meta name="DC.Description" content="Ricostruire la storia di Michelangelo a partire dalle sue opere">
+  <meta name="DC.Date" content="Gennaio 2026">
+  <meta name="DC.Type" content="Catalogo di oggetti culturali">
+  <meta name="DC.Language" content="Italiano">
+  <!-- responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+  <!-- libreria di icone -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- foglio di stile -->
+  <link rel="stylesheet" href="style/style-michelangelo.css">
+  <script type="text/javascript" src="js/main.js"></script>
+ </head>
+ <body>
+<section>
+  <!-- 3 colonne-->
+<div class="leftcolumn">
+  <nav> 
+   <ul class="sidenav-left">
+    <a href="#" class="pagina-corrente"><i class="fa fa-home"> Home</a>
+    <a href="catalogo.html"><i class="fa fa-paint-brush"></i> Le opere</a>
+    <a href="la-vita.html"><i class="fa fa-male"></i> La vita</a>
+    <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-map-o"></i> Gli itinerari <i class="fa fa-chevron-circle-down"></i> </button>
+     <div class="dropdown-content">
+      <a href="mappa.html">Firenze</a>
+      <a href="#">Bologna</a>
+      <a href="#">Roma</a>
+     </div>
+    </div>
+     <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-search"></i> Lo stile <i class="fa fa-chevron-circle-down"></i> </button>
+     <div class="dropdown-content">
+      <a href="#">I nudi</a>
+      <a href="#">Il non-finito</a>
+     </div>
+    </div>
+    <a href="dati.html"><i class="fa fa-file-text"></i> Dati</a> 
+   </ul>
+  </nav>
+</div>
+<div class="middlecolumn">
+  <header id="top">
+   <div class="header"><a href="index.html"><img src="img/header.jpg" alt="Dettaglio delle mani nella 'Creazione di Adamo'" title="Dettaglio delle mani nella 'Creazione di Adamo'"></a>
+   </div>
+ </header> 
+<div class="container">
+<!--1 item-->
+  <div class="hero-image"> 
+    <img src="img/hero-img.jpg" alt="Ritratto di Michelangelo di Daniele da Volterra" title="Ritratto di Michelangelo di Daniele da Volterra" class="hero-image-img">
+  </div>
+<!-- 2 item-->
+    <div class="hero-text">
+      <h1>Sulle tracce di Michelangelo</h1>
+      <p>Percorsi guidati per una (ri)scoperta delle opere e della vita dell'artista.</p>
+      <p><button>Vai agli itinerari</button></p>
+    </div>
+<!-- 3 item-->
+<div class="row">
+  <div class="column1">
+    <img src="img/card1.jpg" alt="Dettaglio del 'Giudizio Universale'" class="image1">
+    <div class="overlay1">
+      <div class="text1"><b>Pittore</b></div>
+    </div>
+  </div>
+<!-- 4 item-->
+    <div class="column2"> 
+      <img src="img/card2.jpg" alt="Pietà Vaticana" class="image2">
+      <div class="overlay2">
+        <div class="text2"><b>Scultore</b></div>
+    </div>
+  </div>
+<!-- 5 item-->
+    <div class="column3">  
+      <img src="img/card3.jpg" alt="Tomba di Giulio II" class="image3">
+      <div class="overlay3">
+        <div class="text3"><b>Architetto</b></div>
+       </div>
+    </div>   
+    </div>
+<!-- 6 item--> 
+<div class="footer">
+  <p>Credits | Licenze | <a href="web-project-plan.html">Web Project Plan</a> | <i class="fa fa-copyright"></i> Copyright 2025 by Alessandra Dell'Onte.</p>
+</div>
+</div>
+</div>
+<div class="rightcolumn">
+  <ul class="sidenav-right">
+    <input type="text" placeholder="Cerca...">
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fa fa-gears"></i> Strumenti <i class="fa fa-chevron-circle-down"></i> </button>
+      <div class="dropdown-content">
+      <a href="#">Salva le tue opere preferite</a>
+      <a href="#">Crea i tuoi itinerari</a>
+    </div>
+   </div>
+   <a href="#"><i class="fa fa-share-alt"></i> Condividi con un amico</a>
+   <a href="#"><button id="myBtn" class="login-btn" style="font-size: 18px; float: right;">Registrati</button></a>
+   <a href="#"><div class="login-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Username" name="username">
+      <input type="text" placeholder="Password" name="psw">
+      <button type="submit" style="font-size: 18px; float: right;">Login</button>
+    </form>
+  </div></a>
+</div>
+ </ul>
+</div>
+</section>
+</body>
+</html>

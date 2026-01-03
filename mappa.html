@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>Sulle tracce di Michelangelo</title>
+  <!--I metadati-->
+  <meta charset="UTF-8">
+  <meta name="DC.Title" content="Sulle tracce di Michelangelo">
+  <meta name="DC.Subject" content="Vita e opere di Michelangelo Buonarroti">
+  <meta name="DC.Creator" content="Alessandra Dell'Onte">
+  <meta name="DC.Description" content="Ricostruire la storia di Michelangelo a partire dalle sue opere">
+  <meta name="DC.Date" content="Gennaio 2026">
+  <meta name="DC.Type" content="Catalogo di oggetti culturali">
+  <meta name="DC.Language" content="Italiano">
+  <!-- responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+  <!-- libreria di icone -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- foglio di stile -->
+  <link rel="stylesheet" href="style/style-michelangelo.css">
+  <script type="text/javascript" src="js/main.js"></script>
+ </head>
+ <body>
+<section>
+  <!-- 3 colonne-->
+<div class="leftcolumn">
+  <nav> 
+   <ul class="sidenav-left">
+    <a href="index.html"><i class="fa fa-home"> Home</a>
+    <a href="catalogo.html"><i class="fa fa-paint-brush"></i> Le opere</a>
+    <a href="la-vita.html"><i class="fa fa-male"></i> La vita</a>
+    <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-map-o"></i> Gli itinerari <i class="fa fa-chevron-circle-down"></i> </button>
+     <div class="dropdown-content">
+      <a href="#" class="pagina-corrente">Firenze</a>
+      <a href="#">Bologna</a>
+      <a href="#">Roma</a>
+     </div>
+    </div>
+     <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-search"></i> Lo stile <i class="fa fa-chevron-circle-down"></i> </button>
+     <div class="dropdown-content">
+      <a href="#">I nudi</a>
+      <a href="#">Il non-finito</a>
+     </div>
+    </div>
+    <a href="dati.html"><i class="fa fa-file-text"></i> Dati</a> 
+   </ul>
+  </nav>
+</div>
+<div class="middlecolumn">
+  <header id="top">
+   <div class="header"><a href="index.html"><img src="img/header.jpg" alt="Dettaglio delle mani nella 'Creazione di Adamo'" title="Dettaglio delle mani nella 'Creazione di Adamo'"></a>
+   </div>
+ </header>
+<div class="container">
+  <div class="row1">
+  <div>
+    <em><p style="font-size: 22px">Scopri dove puoi visitare le opere di Michelangelo a Firenze <i style="font-size:24px" class="fa fa-hand-o-down"></i></p></em>
+    <p style="font-size: 22px">Cerca un'opera e trova il luogo di conservazione:</p></div>
+<div>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Cerca un'opera..." title="Cerca un'opera" style="font-size: 19px;">
+<table  id="myTable" style="border: 3px #b35c00; border-style: inset; font-size: 18px; margin-top: 40px;margin-left: 5px; margin-right: 5px;">
+  <tr>
+    <th style="border: 1px solid black;">Titolo</th>
+    <th style="border: 1px solid black">Luogo di conservazione</th>
+  </tr>
+  <tr>
+    <td>Madonna della scala</td>
+    <td>Firenze, Casa Buonarroti</td>
+  </tr>
+  <tr>
+    <td>David</td>
+    <td>Firenze, Accademia</td>
+  </tr>
+  <tr>
+    <td>Tondo Doni</td>
+    <td>Firenze, Uffizi</td>
+  </tr>
+  <tr>
+    <td>Studio per le fortificazioni di Firenze</td>
+    <td>Firenze, Casa Buonarroti</td>
+  </tr>
+  <tr>
+    <td>Pietà Bandini</td>
+    <td>Firenze, Museo dell'Opera del Duomo</td>
+  </tr>
+</table>
+</div>
+</div>
+<div class="row2">
+  <div><p style="font-size: 25px; margin-top: 150px;">Vai alla <a href="la-vita.html">Vita</a> per maggiori informazioni.</p></div>
+ <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92181.10087029707!2d11.15856739732996!3d43.77992855057459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a56a680d2d6ad%3A0x93d57917efc72a03!2sFirenze%20FI!5e0!3m2!1sit!2sit!4v1767441352146!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</div>
+<div class="footer">
+  <p>Credits | Licenze | <a href="web-project-plan.html">Web Project Plan</a> | <i class="fa fa-copyright"></i> Copyright 2025 by Alessandra Dell'Onte.</p>
+</div>
+</div>
+</div>
+<div class="rightcolumn">
+  <ul class="sidenav-right">
+    <input type="text" placeholder="Cerca...">
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fa fa-gears"></i> Strumenti <i class="fa fa-chevron-circle-down"></i> </button>
+      <div class="dropdown-content">
+      <a href="#">Salva le tue opere preferite</a>
+      <a href="#">Crea i tuoi itinerari</a>
+    </div>
+   </div>
+   <a href="#"><i class="fa fa-share-alt"></i> Condividi con un amico</a> 
+ </ul>
+</div>
+</section>
+</body>
+</html>
